@@ -1,0 +1,8 @@
+In-place algorithm
+O(n^2) time complexity - quadratic
+It will take 100 steps to sort 10 items, 10,000 steps to sort 100 items, 1,000,000 steps to sort 1000 items
+Doesn't require as much swapping as bubble sort
+Unstable algorithm
+
+Selection Sort will perform better because we swap only one time per traversal, however keep in mind this is an
+unstable algorithm.

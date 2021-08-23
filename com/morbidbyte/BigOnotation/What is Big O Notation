@@ -1,0 +1,46 @@
+Big O Notation:
+In simple words big notation is a way of measuring how an algorithm performs.
+
+Type of measurements:
+
+Time Complexity: Number of steps taking by the algorithm to be completely executed.
+Memory Complexity: Amount of memory it takes to run an algorithm.
+
+Memory complexity is not a big issue nowadays because memory is cheap compare with memory price very long time ago.
+
+When looking at time complexity, we have to look at the worst case scenario.
+
+
+Algorithm to add sugar to tea
+
+1. Fetch the bowl containing the sugar
+2. Get a spoon
+3. Scoop out sugar using spoon
+4. Pour the sugar from the spoon into the tea
+5. Repeat steps 3 and 4 until you've added the desired amount of sugar.
+
+For
+1 Scoop of sugar =====> 04 steps
+2 Scoop of sugar =====> 06 steps
+3 Scoop of sugar =====> 08 steps
+4 Scoop of sugar =====> 10 steps
+5 Scoop of sugar =====> 12 steps
+
+The equation representing the growing is
+
+n represents the number of sugar.
+total of steps =  2n + 2.
+
+
+Time complexity is O(n)  ------> Linear time complexity.
+
+
+
+
+Common Big-O values
+
+O(1) Constants (best)
+O(logn) Logarithmic
+O(n) Linear
+O(nlogn) n log-star n
+O(n^2) Quadratic (worst)

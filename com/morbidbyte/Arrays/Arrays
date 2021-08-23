@@ -1,0 +1,54 @@
+if we have the following array
+
+int[] myArray = new int[7];
+intArray[0] = 20;
+intArray[1] = 35;
+intArray[2] = -15;
+intArray[3] = 7;
+intArray[4] = 55;
+intArray[5] = 1;
+intArray[6] = -22;
+
+
+If we know the start address of the array, we can find the address of any element by the following
+mathematical ecuation
+
+memory location = start address + (position of element * size of element );
+
+size of element of the following array is integer(4 bytes)
+
+Address of array[0] = 12
+Address of array[1] = 12 + (1 * 4) = 16
+Address of array[2] = 12 + (2 * 4) = 20
+Address of array[3] = 12 + (3 * 4) = 24
+Address of array[4] = 12 + (4 * 4) = 28
+Address of array[5] = 12 + (5 * 4) = 32
+Address of array[6] = 12 + (6 * 4) = 36
+
+Retrieve an element from an array
+1. Multiply the size of the element by its index
+2. Get the start address of the array
+3. Add the start address to the result of the multiplication
+
+The number of steps to grab an element from an array is always 3, so we are talking about a
+Time complexity equal to O(1) and it is constant.
+
+
+Special Note:
+Retrieval when we know the index is O(1) constants but retrieval when we don't know the index needed is linear for the worst case scenario.
+Let's supposed we need to grab the latest index of the array, if there are 10 elements we need to search ten times, 100 elements require searching 100 times and so on.
+
+
+
+Time complexity and operation on an array summarization
+
+
+Operation                       |  Time Complexity
+________________________________________________________________
+Retrieve with index                               ==>  O(1)
+Retrieve without index                            ==>  O(n)
+Add an element to a full array                    ==>  O(n)
+Add an element to the end of an array(has space)  ==>  O(1)
+Insert or update an element at a specific index   ==>  O(1)
+Delete an element by setting it to null           ==>  O(1)
+Delete an element by shifting elements            ==>  O(n)
