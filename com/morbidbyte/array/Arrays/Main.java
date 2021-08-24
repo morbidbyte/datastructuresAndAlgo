@@ -1,4 +1,4 @@
-package com.morbidbyte.Arrays;
+package com.morbidbyte.array.Arrays;
 
 /**
  * Arrays:

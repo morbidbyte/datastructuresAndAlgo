@@ -1,4 +1,4 @@
-package com.morbidbyte.BubbleSort;
+package com.morbidbyte.array.BubbleSort;
 
 import java.util.Arrays;
 

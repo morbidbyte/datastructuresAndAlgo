@@ -1,4 +1,4 @@
-package com.morbidbyte.SelectionSort;
+package com.morbidbyte.array.SelectionSort;
 
 import java.util.Arrays;
 
@@ -10,8 +10,6 @@ public class SelectionSort {
 
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
 
-
-
         for(int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex-- ){
 
             int largestItem = 0;
@@ -21,11 +19,9 @@ public class SelectionSort {
                     largestItem = i;
                 }
             }
-
             swap(intArray, largestItem, lastUnsortedIndex);
 
         }
-
 
         System.out.println(Arrays.toString(intArray));
     }

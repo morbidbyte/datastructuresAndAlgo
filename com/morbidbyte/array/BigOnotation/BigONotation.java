@@ -1,4 +1,4 @@
-package com.morbidbyte.BigOnotation;
+package com.morbidbyte.array.BigOnotation;
 
 public class BigONotation {
 
