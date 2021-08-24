@@ -42,6 +42,14 @@ public class MergeSort {
             temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++];
         }
 
+
+        //System.arraycopy
+        //input => src: This is the source array
+        //i => srcPos: This is the starting position in the source array
+        //input => dest: This is the destination array
+        //start + tempIndex => destPos: This is the starting position in the destination data
+        //mid - i => length: This is the number of array elements to be copied.
+
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
         System.arraycopy(temp, 0, input, start, tempIndex);
 
