@@ -1,0 +1,14 @@
+Insert operation:
+
+1. Create a new node
+2. Assign existing head node to next field.
+3. Assign head to the new created node
+4. Will be O(1) complexity => Constant.
+
+
+Delete operation:
+
+1. Assign head element to a temporary variable "removeNode"
+2. Assign head to next node
+3. Return "removeNode"
+4. Will be O(1) time complexity

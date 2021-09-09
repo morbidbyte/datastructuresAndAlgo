@@ -1,5 +1,5 @@
 It is similar to ArrayList with the big difference being that it is Synchronized.
-Vector is synchronized which means only one thread at a time can access the code.
+Vector is synchronized which means only one thread at a time can access the resource.
 Synce Vector is synchronized, it has less performance than arraylist.
 
 If you need thread safety use vector then.
