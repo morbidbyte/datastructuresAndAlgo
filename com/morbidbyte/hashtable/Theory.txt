@@ -1,0 +1,32 @@
+Hash Table are implementations of dictionaries or maps
+
+* Abstract data type
+* Provide access to data using keys
+* Key doesn't have to be an integer
+* Consist of key/value pairs - data types don't heave to match
+* Optimized for retrieval (when you know the key)
+* Associative array is one type of hash table
+
+
+
+******** Hashing ************
+* Maps keys of any data type to an integer
+* Hash function maps keys to an int
+* In Java, hash functions is Object.hashCode()
+* Collision occurs when more than one value has the same hashed value
+
+
+
+******* Load Factor *********
+* Tell us how full a hash table is
+* Load factor = # of items / capacity = size / capacity
+* Load factor is used to decide when to resize the array backing the hash table
+* Don't want to load factor too low (lost of empty space)
+* Don't want to load factor too high ( will increase the likelihood of collisions)
+* Can play a role in determining the time complexity for retrieval.
+
+****** Add to  a Hash table backed by an array
+
+* Provide a key/value pair
+* Use a hash function to hash the key to an int value
+* Store the value at the hashed key value - this is the index of the array
